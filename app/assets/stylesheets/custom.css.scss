@@ -161,10 +161,28 @@ hr {
 	padding-top: 30px;
 }
 
+.tech-company {
+	background: url('../images/darkbrownnoise.png') repeat center center;
+	height: 300px;
+}
+
+.what-if {
+	padding-top: 70px;
+	color: white;
+
+	& > .btn {
+		margin-top: 25px;
+	}
+}
+
+.green-text {
+	color: #66FF66;
+}
+
 
 .footer {
-	height: 65px;
-	margin-top: 60px;
+	background: url('../images/darkbrownnoise.png') repeat center center;
+	height: 75px;
 	padding-top: 5px;
 	border-top: 1px dotted gray;
 	color: #999;
