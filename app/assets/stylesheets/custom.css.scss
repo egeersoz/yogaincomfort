@@ -1,0 +1,176 @@
+.centertext {
+	text-align: center;
+}
+
+hr {
+	border: 1px solid #eee;
+	height: 0;
+
+	&.half-rule {
+		width: 100px;
+		margin: 40px auto;
+	}
+
+	&.quarter-rule {
+		width: auto;
+		margin: 20px auto;
+		border: 1px dotted #ccc;
+	}
+}
+
+
+.form {
+	border: 1px dotted #ccc;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background-color: #ECECF8;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-control {
+	margin-bottom: 5px;
+}
+
+.input-group > div {
+	margin-bottom: 20px;
+}
+
+.valign {
+	height: 100px;
+
+	& > img, p {
+	  position: relative;
+	  top: 50%;
+	  -webkit-transform: translateY(-50%);
+	  -ms-transform: translateY(-50%);
+	  transform: translateY(-50%);
+	}
+
+	& > a {
+	  position: relative;
+	  top: 37%;
+	  -webkit-transform: translateY(-50%);
+	  -ms-transform: translateY(-50%);
+	  transform: translateY(-50%);
+	}
+}
+
+.fa-green {
+	color: green;
+}
+
+.banner-text {
+	padding-top: 40px;
+	padding-left: 25px;
+}
+
+.jumbotron.frontpage {
+	background: url("../images/lotus.jpg") no-repeat center top;
+	height: 567px;
+	margin-bottom: 0;
+}
+
+.navbar {
+	background: #CEDEAD;
+	font-size: 16px;
+	margin-bottom: 0;
+	border-bottom: 5px solid #E6E6E6;
+}
+
+.gray-bar {
+	width: 100%;
+	height: 100px;
+	background: #ebebeb;
+	margin-bottom: 20px;
+
+	& > div {
+		padding-top: 35px;
+		font-size: 22px;
+		color: #656565;
+	}
+}
+
+#instructor-qualifications {
+	padding-top: 20px;
+	font-size: 22px;
+	padding-left: 20px;
+	line-height: 60px;
+}
+
+.yogamats {
+	background: url('../images/yogamat.jpg') no-repeat center top;
+	font-weight: bold;
+	color: #E8E8E8;
+	height: 470px;
+
+	& > div {
+		padding-top: 30px;
+		padding-left: 30px;
+	}
+}
+
+.blueyogagirl {
+	background: url('../images/blueyogagirl.png') no-repeat center center;
+	height: 150px;
+}
+
+.super-easy-image {
+	background: url('../images/trees.jpg') no-repeat center center;
+	position: absolute;
+	height: 352px;
+	width: 100%;
+	opacity: 0.6; 
+	filter: alpha(opacity=60);
+	z-index: -1;
+}
+
+.super-easy {
+	padding-top: 65px;
+	padding-bottom: 68px;
+	font-weight: bold;
+	text-shadow: 1px 1px #B2B2B2;
+	position: relative;
+
+	& > ul {
+		list-style: none;
+
+		& > li {
+			display: inline-block;
+			margin-right: 70px;
+			margin-top: 50px;
+			font-size: 22px;
+		}
+	}
+}
+
+.no-margin-row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#map-canvas {
+	height: 350px;
+	border: 4px dashed gray;
+}
+
+.map-text {
+	padding-top: 30px;
+}
+
+
+.footer {
+	height: 65px;
+	margin-top: 60px;
+	padding-top: 5px;
+	border-top: 1px dotted gray;
+	color: #999;
+}
+
+.footer p {
+	padding-top: 20px;
+	font-size: 12px;
+}

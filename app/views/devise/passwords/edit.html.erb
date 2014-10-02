@@ -1,0 +1,33 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4 form">
+			<h2 class-"centertext">Change your password</h2>
+
+			<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
+			  <%= devise_error_messages! %>
+			  <%= f.hidden_field :reset_password_token %>
+
+			  <div class="form-group">
+				  <div><br />
+					  <div class="input-group">
+						  <span class="input-group-addon"><i class="fa fa-key"></i></span>
+						    <%= f.password_field :password, class: "form-control", autofocus: true, placeholder: "Enter new password", autocomplete: "off" %>
+					  </div>
+				  </div>
+
+				  <div><br />
+					  <div class="input-group">
+						  <span class="input-group-addon"><i class="fa fa-key"></i></span>
+						    <%= f.password_field :password_confirmation, class: "form-control", placeholder: "Confirm new password", autocomplete: "off" %>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="form-group">
+			  	<div><%= f.submit "Change my password", class: "btn btn-primary" %></div>
+			  </div>
+			<% end %>
+			<hr class="quarter-rule">
+			<%= render "devise/shared/links" %>
+		</div>
+	</div>
+</div>
