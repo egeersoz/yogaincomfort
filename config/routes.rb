@@ -3,8 +3,7 @@ Yogaincomfort::Application.routes.draw do
   devise_for :users
   root 'static_pages#home'
 
-  get '/about', to: "static_pages#home", as: 'about'
-  get '/contact', to: "static_pages#contact", as: 'contact'
+  get '/about', to: "static_pages#about", as: 'about'
   get '/privacy', to: "static_pages#privacy", as: 'privacy'
   get '/terms', to: "static_pages#terms", as: 'terms'
   get '/book-now', to: "static_pages#booking", as: 'booking'
