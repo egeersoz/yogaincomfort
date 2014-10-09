@@ -13,10 +13,9 @@
     </div>
 
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Services & Pricing</a></li>
+      <li><%= link_to "About Us", about_path %></li>
       <li><a href="#">Service Areas</a></li>
-      <li><a href="#">FAQ</a></li>
+      <li><%= link_to "FAQ", faq_path %></li>
       <li>
           <%= link_to booking_path do %>
             <i class="glyphicon glyphicon-cloud-clock"></i> Book in 60 secs
