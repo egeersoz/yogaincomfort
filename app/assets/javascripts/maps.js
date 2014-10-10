@@ -1,6 +1,6 @@
 var citymap = {};
-citymap['southgate'] = {
-  center: new google.maps.LatLng(33.9381584,-118.193812),
+citymap['carson'] = {
+  center: new google.maps.LatLng(33.8025833,-118.21732),
   population: 3857799
 };
 
@@ -10,7 +10,7 @@ function initialize() {
   // Create the map.
   var mapOptions = {
     zoom: 9,
-    center: new google.maps.LatLng(33.9381584,-118.193812),
+    center: new google.maps.LatLng(33.8025833,-118.21732),
     mapTypeId: google.maps.MapTypeId.TERRAIN
   };
 
@@ -27,7 +27,7 @@ function initialize() {
       fillOpacity: 0.35,
       map: map,
       center: citymap[city].center,
-      radius: Math.sqrt(citymap[city].population) * 17
+      radius: Math.sqrt(citymap[city].population) * 19
     };
     // Add the circle for this city to the map.
     cityCircle = new google.maps.Circle(populationOptions);
