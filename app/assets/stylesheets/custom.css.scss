@@ -85,8 +85,14 @@ hr {
 .navbar {
 	background: #CEDEAD;
 	font-size: 16px;
+	height: 60px;
 	margin-bottom: 0;
 	border-bottom: 3px solid #E6E6E6;
+}
+
+.navbar-nav > li > a {
+	padding-top: 18px;
+	padding-bottom: 20px;
 }
 
 .gray-bar {
