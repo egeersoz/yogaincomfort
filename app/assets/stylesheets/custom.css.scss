@@ -26,6 +26,10 @@ hr {
 	}
 }
 
+.portrait {
+	border-radius: 50%;
+}
+
 
 .form {
 	border: 1px dotted #ccc;
@@ -165,6 +169,10 @@ hr {
 .no-margin-row {
 	margin-left: 0;
 	margin-right: 0;
+}
+
+h2.no-margin {
+	margin-top: 0;
 }
 
 #map-canvas {
