@@ -11,6 +11,14 @@ function initialize() {
   var mapOptions = {
     zoom: 9,
     center: new google.maps.LatLng(33.8025833,-118.21732),
+    scrollwheel: false,
+    navigationControl: false,
+    mapTypeControl: false,
+    scaleControl: false,
+    draggable: false,
+    zoomControl: false,
+    streetViewControl: false,
+    disableDoubleClickZoom: true,
     mapTypeId: google.maps.MapTypeId.TERRAIN
   };
 
