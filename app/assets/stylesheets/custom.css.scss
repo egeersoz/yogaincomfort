@@ -71,6 +71,10 @@ hr {
 	}
 }
 
+.fa-light-green {
+	color: #76B6ED;
+}
+
 .fa-green {
 	color: green;
 }
@@ -119,10 +123,18 @@ hr {
 	line-height: 60px;
 }
 
+#testimonial {
+	padding-top: 45px;
+}
+
+#instructors {
+	padding-left: 50px;
+}
+
 .yogamats {
 	background: url('../images/yogamat.jpg') no-repeat center top;
 	font-weight: bold;
-	color: #E8E8E8;
+	color: white;
 	text-shadow: 2px 2px #4D4D4D;
 	height: 470px;
 
