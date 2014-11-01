@@ -2,52 +2,63 @@
 
 <div class="container">
 
-		<h2 class="centertext no-margin">The Founders</h2><br />
-
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="row centertext">
-					<%= image_tag "ege.jpg", height: 150, class: "portrait" %><br /><br />
-				</div>
-				<div class="row">
-					<div class="col-lg-offset-1 col-lg-10">
-						<strong>Ege</strong> is the "tech guy." After working in the software industry for six years, he decided that corporate life wasn't for him. Having always been a fitness buff, he decided to use his technical skills to make it easier for people to become stronger and more flexible. In his spare time, he enjoys biking, rock climbing, reading, coding, and collecting cat pictures on the Internet.
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="row centertext">
-					<%= image_tag "sierra.png", height: 150, class: "portrait" %><br /><br />
-				</div>
-				<div class="row">
-					<div class="col-lg-offset-1 col-lg-10">
-						<strong>Sierra</strong> is the "yoga lady." Originally drawn to yoga for its ability to heal, Sierra's practice stemmed from a desire to find comfort in her body. As she practiced, she realized that yoga also gave her a way to connect with the people around her. Yoga is joyful and uplifting, and she celebrates its ability to assist in self-study and somatic awareness. Sierra currently teaches Vinyasa and Power classes in the South Bay.
-					</div>
-				</div>
-			</div>
+	<div class="row">
+		<div class="col-lg-offset-2 col-lg-8 centertext">
+			<h2>About Us</h2>
+			<p>We provide personalized yoga services that come to your doorstep. We would like to make yoga more accessible to you with convenient scheduling and WOW you with excellent customer service.</p>
 		</div>
-
-		<hr class="half-rule">
-	
-		<div class="row">
-			<div class="col-lg-offset-2 col-lg-8 centertext">
-				<h2>We are a revolutionary new yoga company.</h2><br />
-
-				<p>We practice yoga <i>a lot</i> and we know how packed studio classes can be and how hard it is to get personal attention during class. Just like yours, our bodies don't always feel good in certain positions and we need to know what modifications we can use, which is hard when the teacher is busy with 20 other students!</p><br />
-
-				<p>Add to this the difficulty of finding classes that fit one's busy schedule -- hey, we live in LA after all! -- and well, don't you wish yoga instructors could just come to you instead, and do so at a time of your choosing?</p><br />
-
-				<p>We design yoga that fits your lifestyle, whether you sit 12 hours a day, run marathons, or are on your feet all day, we have a pose for that. Give us a try and let us customize a practice for you.</p><br />
-
-				<div class="centertext">
-					<%= link_to booking_path, class: "btn btn-primary btn-lg" do %>
-						Book Some Yoga
-					<% end %>
-				</div>
-			</div>
-		</div>
+	</div>
 
 	<hr class="half-rule">
+
+	<h2 class="centertext no-margin">The Founders</h2><br />
+
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="row centertext">
+				<%= image_tag "ege.jpg", height: 150, class: "portrait" %><br /><br />
+			</div>
+			<div class="row">
+				<div class="col-lg-offset-1 col-lg-10">
+					<strong>Ege</strong> is the "tech guy." After working in the software industry for six years, he decided that corporate life wasn't for him. Having always been a fitness buff, he decided to use his technical skills to make it easier for people to become stronger and more flexible. In his spare time, he enjoys biking, rock climbing, reading, coding, and collecting cat pictures on the Internet.
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="row centertext">
+				<%= image_tag "sierra.png", height: 150, class: "portrait" %><br /><br />
+			</div>
+			<div class="row">
+				<div class="col-lg-offset-1 col-lg-10">
+					<strong>Sierra</strong> is the "yoga lady." Originally drawn to yoga for its ability to heal, Sierra's practice stemmed from a desire to find comfort in her body. As she practiced, she realized that yoga also gave her a way to connect with the people around her. Yoga is joyful and uplifting, and she celebrates its ability to assist in self-study and somatic awareness. Sierra currently teaches Vinyasa and Power classes in the South Bay.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr class="half-rule">
+
+	<div class="row">
+		<div class="col-lg-offset-2 col-lg-8 centertext">
+			<h2>We are a revolutionary new yoga company.</h2><br />
+
+			<p>We practice yoga <i>a lot</i> and we know how packed studio classes can be and how hard it is to get personal attention during class. Just like yours, our bodies don't always feel good in certain positions and we need to know what modifications we can use, which is hard when the teacher is busy with 20 other students!</p><br />
+
+			<p>Add to this the difficulty of finding classes that fit one's busy schedule -- hey, we live in LA after all! -- and well, don't you wish yoga instructors could just come to you instead, and do so at a time of your choosing?</p><br />
+
+			<p>We design yoga that fits your lifestyle, whether you sit 12 hours a day, run marathons, or are on your feet all day, we have a pose for that. Give us a try and let us customize a practice for you.</p><br />
+
+			<div class="centertext">
+				<%= link_to booking_path, class: "btn btn-primary btn-lg" do %>
+					Book Some Yoga
+				<% end %>
+			</div>
+		</div>
+	</div>
+
+	<hr class="half-rule">
+
+	<h2 class="centertext no-margin">Our Difference</h2><br />
 
 	<div class="row">
 		<div class="centertext col-lg-3">
@@ -60,20 +71,11 @@
 		</div>
 		<div class="centertext col-lg-3">
 			<h3><i class="fa fa-suitcase"></i> Yoga Gear Provided</h3>
-			<p>No need to have your own gear. We provide everything, including mats and blocks. Just wear your workout clothes and relax!</p>
+			<p>You just need a yoga mat. We provide everything else, including blocks and straps. Just wear your workout clothes and relax!</p>
 		</div>
 		<div class="centertext col-lg-3">
 			<h3><i class="fa fa-lock"></i> Secure Payment</h3>
 			<p>All payments are handled securely by Stripe, a world-class online payment processor. We don't store credit card information.</p>
-		</div>
-	</div>
-
-	<hr class="half-rule">
-
-	<div class="row">
-		<div class="col-lg-offset-2 col-lg-8 centertext">
-			<h2>About Us</h2>
-			<p>We provide personalized yoga services that come to your doorstep. We would like to make yoga more accessible to you with convenient scheduling and WOW you with excellent customer service.</p>
 		</div>
 	</div>
 
