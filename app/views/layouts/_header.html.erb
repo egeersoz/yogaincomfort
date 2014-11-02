@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-default" role="navigation">
+  <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<%= root_url %>"><%= image_tag "logo2.png", height: 55 -%></a>
+      <a class="navbar-brand" href="<%= root_url %>"><%= image_tag "yogaincomfortlogo.png", height: 55, alt: "Yoga in Comfort logo" -%></a>
     </div>
 
     <ul class="nav navbar-nav navbar-right">
@@ -17,9 +17,11 @@
       <li><a href="<%= root_url %>#location">Location</a></li>
       <li><%= link_to "FAQ", faq_path %></li>
       <li>
-          <%= link_to booking_path do %>
-            <i class="glyphicon glyphicon-cloud-clock"></i> Book in 60 secs
-          <% end %>
+          <form>
+            <%= link_to booking_path, class: "btn btn-primary navbar-btn" do %>
+              <strong><i class="fa fa-clock-o"></i> Book in 60 secs</strong>
+            <% end %>
+          </form>
       </li>
     </ul>
   </div><!-- /.navbar-collapse -->
