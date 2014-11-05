@@ -14,6 +14,14 @@ header {
 	margin-top: 11px;
 }
 
+.banner-btn {
+	border: 2px solid #357ebd;
+
+	&:hover {
+		border-color: #357ebd;
+	}
+}
+
 hr {
 	border: 1px solid #eee;
 	height: 0;
@@ -89,17 +97,28 @@ hr {
 	margin-bottom: 10px;
 }
 
+.row.social {
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.addthis_native_toolbox {
+	width: 390px;
+	margin: 0 auto;
+}
+
 h1.banner-heading {
 	font-size: 30px;
 }
 
 .banner-text {
 	padding-top: 60px;
-	padding-left: 25px;
+	
 }
 
 .jumbotron.frontpage {
-	background: url("../images/lotus.jpg") no-repeat center top;
+	background: url("../images/test.jpg") no-repeat center top;
 	height: 567px;
 	margin-bottom: 0;
 }
