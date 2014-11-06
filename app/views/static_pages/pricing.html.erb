@@ -1,0 +1,75 @@
+<% provide(:title, 'Pricing') %>
+	<div class="jumbotron centertext">
+		<div class="container">
+			<div class="pricing-text">
+				<h1 class="banner-heading">Transparent and flat pricing. Awesome.</h1>
+				<p class="lead">Yoga is about simplicity. So are we. No need to jump through crazy hoops to find out how much our classes cost.</p>
+		    </div>
+		</div>
+	</div>
+
+	<hr class="half-rule">
+
+	<div class="container small-container">
+		<div class="row pricing-row title">
+			<div class="col-md-12 centertext">
+				<h4>Select options below to calculate price per class</h4>
+			</div>
+		</div>
+		<div class="row pricing-row frequency">
+			<div class="col-md-2">
+				<h4>Frequency</h4>
+			</div>
+			<div class="col-md-10 centertext">
+				<div class="row list-group">
+					<div class="col-md-4 list-group-item pricing-item" id="once">
+					One-time
+					</div>
+					<div class="col-md-4 list-group-item pricing-item" id="weekly">
+					Weekly
+					</div>
+					<div class="col-md-4 list-group-item pricing-item" id="biweekly">
+					Once every two weeks
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row pricing-row length">
+			<div class="col-md-2">
+				<h4>Length</h4>
+			</div>
+			<div class="col-md-10 centertext">
+				<div class="row list-group">
+					<div class="col-md-4 list-group-item pricing-item" id="sixty_minutes">
+					60 minutes
+					</div>
+					<div class="col-md-4 list-group-item pricing-item" id="ninety_minutes">
+					90 minutes
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row pricing-row price">
+			<div class="col-md-2">
+				<h4>Price</h4>
+			</div>
+			<div class="col-md-10 price-col centertext">
+				<div class="row">
+					<div class="col-md-4">
+						$ <span id="final-price">75</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row pricing-row booking">
+			<div class="col-md-12 centertext">
+				<%= link_to booking_path, class: "btn btn-primary" do %>
+					<i class="fa fa-clock-o"></i> Take me to the booking page!
+				<% end %>
+			</div>
+		</div>
+	</div>
+</div>

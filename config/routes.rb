@@ -8,6 +8,7 @@ Yogaincomfort::Application.routes.draw do
   get '/terms', to: "static_pages#terms", as: 'terms'
   get '/book-now', to: "static_pages#booking", as: 'booking'
   get '/faq', to: "static_pages#faq", as: 'faq'
+  get '/pricing', to: "static_pages#pricing", as: 'pricing'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

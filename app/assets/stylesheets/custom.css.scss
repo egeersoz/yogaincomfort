@@ -22,6 +22,10 @@ header {
 	}
 }
 
+.container.small-container {
+	width: 970px;
+}
+
 hr {
 	border: 1px solid #eee;
 	height: 0;
@@ -270,6 +274,53 @@ h2.no-margin {
 		padding-top: 100px;
 		font-size: 40px;
 		text-shadow: 2px 2px #CCCCCC;
+	}
+}
+
+.pricing-row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	& > .col-md-2 > h4 {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	& > .price-col {
+		padding-top: 6px;
+		padding-bottom: 10px;
+		font-size: 24px;
+		font-weight: 700;
+		color: #900;
+	}
+
+	&.title {
+		margin-bottom: 35px;
+	}
+
+	&.booking {
+		margin-top: 25px;
+	}
+
+	& > .col-md-10 > .list-group > .list-group-item {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+.list-group-item.pricing-item {
+
+	&:hover {
+		cursor: pointer;
+		background-color: #f5f5f5;
+	}
+
+	&.selected {
+		background-color: #E2EBCE;
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
 
