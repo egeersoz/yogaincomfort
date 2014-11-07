@@ -22,5 +22,8 @@ class StaticPagesController < ApplicationController
 
   def pricing
   end
+
+  def teachers
+  end
   
 end
